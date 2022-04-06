@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+</head>
+<body>
+    <header class="invoice__header">
+        <h1 class="title">Invoice Creator</h1>
+        <p class="header__para">Thanks for choosing GoodCorp, LLC!</p>
+    </header>
+
+    <main>
+        <section class="main__section">
+            <section class="buttons">
+                <button class="button" id="invoice-btn1">Wash Car: $10</button>
+                <button class="button" id="invoice-btn2">Mow Lawn: $20</button>
+                <button class="button" id="invoice-btn3">Pull Weeds: $30</button>
+            </section>
+            <section class="money">
+                <div class="money__top">
+                    <h4 class="money__text">TASK</h4>
+                    <h4 class="money__text">TOTAL</h4>
+                </div>
+                <ul id="ul-el">
+                    
+                </ul>
+                <div class="line"></div>
+                <div class="money__bot">
+                    <div class="money__bot--labels">
+                        <h4 class="money__text">Notes</h4>
+                        <h4 class="money__text">Total Amount</h4>
+                    </div>
+                    <div class="money__bot--amounts">
+                        <p class="money__text money__accept"></p>
+                        <h1 id="money__text--total" class="money__text money__total">$0</h2>
+                    </div>
+                    <button class="send" id="send-btn"> <img src="envelope-solid.svg" class="envelope--img"> Send invoice</button>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>

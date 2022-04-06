@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main__section {
+    background-color: #1F2937;
+    padding: 0 32px;
+}
+
+.buttons {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    padding: 16px;
+    border-style: none;
+    border-radius: 9999px;
+    background-color: #D1D4F4;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.invoice__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A69D2;
+    color: #fff;
+}
+
+.title {
+    padding-top: 32px;
+}
+
+.header__para {
+    padding-bottom: 48px;
+}
+
+.money__text {
+    color: #fff;
+}
+
+.money__top, .money__bot--labels {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    
+}
+
+.line {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin: 32px 0;
+}
+
+.money__bot--amounts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.money__accept {
+    font-size: 10px;
+}
+
+.money__total {
+    font-size: 32px;
+}
+
+.envelope--img {
+    width: 12px;
+    height: 12px;
+    filter: invert(100%);
+    margin-right: 16px;
+}
+
+.send {
+    background-color: #3A69D2;
+    border-style: none;
+    border-radius: 4px;
+    color: #fff;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.money__bot {
+    padding-bottom: 160px;
+}
+
+.task__text {
+    font-size: 24px;
+}
+
+.task__items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.task__item--wrapper {
+    display: flex;
+}
+
+.remove-btn {
+    border-style: none;
+    background-color: transparent;
+    padding-left: 16px;
+    color: #D5D4D8;
+}
+
